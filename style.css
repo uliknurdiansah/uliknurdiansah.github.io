@@ -9,7 +9,7 @@ background-color: #aaebb5;
     width: 210px;
     animation: frame 2s infinite;
 }
-img:hover{
+img.rounded-circle:hover{
 
     width: 300px;
    
@@ -22,18 +22,13 @@ img:hover{
 section{
     padding-top: 5rem;
 }
-.card{
-    position: relative;
-    
-}
-.card-body img:hover{
- width: 700px;
-   right:65px;
-;
-   z-index: 1;
-position: absolute;
-}
 
+.card img:hover{
+    position: relative;
+    transform:scale(1.38);
+    
+
+}
 
 @keyframes frame{
 
